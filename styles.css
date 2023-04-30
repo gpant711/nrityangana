@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -48,7 +48,7 @@ header .container .navbar .nav-links li a {
 }
 header .container .navbar .nav-links li a::after {
   position: absolute;
-  content: "";
+  content: '';
   background-color: #fff;
   bottom: -5px;
   left: 0;
@@ -124,13 +124,13 @@ header .video-container video {
   object-fit: cover;
 }
 header .video-container::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.82);
+  --background-color: rgba(0, 0, 0, 0.82);
 }
 
 @media (max-width: 850px) {
