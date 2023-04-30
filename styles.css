@@ -81,8 +81,9 @@ header .container .showcase {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  width: 35rem;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 header .container .showcase h1 {
   color: #fff;
@@ -169,7 +170,7 @@ header .video-container::after {
     left: 0;
     background-color: #fff;
     height: 100%;
-    width: 225px;
+    --width: 225px;
     margin: 0;
     padding: 0;
     flex-direction: column;
