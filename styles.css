@@ -149,10 +149,16 @@ header .video-container::after {
   margin-left: 1rem;
 }
 
+@media (max-width: 500px) {
+  .para {
+    flex-direction: column;
+    width: 480px;
+  }
+}
 @media (max-width: 400px) {
   .para {
     flex-direction: column;
-    width: 300px;
+    width: 380px;
   }
 }
 
