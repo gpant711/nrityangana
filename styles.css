@@ -147,7 +147,7 @@ header .video-container::after {
     justify-content: space-evenly;
     align-items: center;
     transform: translateX(-100%);
-    transition: 0.4s ease all;
+    --transition: 0.4s ease all;
     z-index: 10;
   }
   header .container .navbar .nav-links li a {
