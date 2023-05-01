@@ -141,24 +141,68 @@ header .video-container::after {
 .para {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
-  justify-content: space-between;
+  padding: 3rem;
+  --justify-content: space-around;
+  width: 80%;
 }
 
 .desc {
   margin-left: 1rem;
 }
 
-@media (max-width: 500px) {
+.para .desc h1 {
+  font-size: 1.4rem;
+}
+.para .desc p {
+  font-size: 0.95rem;
+}
+
+.vid {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+@media (min-width: 700px) {
+  .para {
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .para .desc h1 {
+    width: 500px;
+  }
+  .para .desc p {
+    width: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .para .desc h1 {
+    font-size: 1rem;
+  }
+  .para .desc p {
+    font-size: 0.75rem;
+    width: calc(100vw - 100px) !important;
+  }
+}
+
+@media (max-width: 800px) {
   .para {
     flex-direction: column;
-    width: 480px;
+    align-items: center;
+    width: 100vw;
   }
 }
 @media (max-width: 400px) {
   .para {
     flex-direction: column;
-    width: 380px;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .vid {
+    width: calc(100vw - 100px) !important;
+    height: 250px;
   }
 }
 
