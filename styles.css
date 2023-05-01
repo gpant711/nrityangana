@@ -137,10 +137,15 @@ header .video-container::after {
 .body {
   padding: 3rem;
 }
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .para {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 3rem;
   color: rgb(13, 52, 124);
   width: 80%;
