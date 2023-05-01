@@ -142,7 +142,7 @@ header .video-container::after {
   display: flex;
   flex-direction: row;
   padding: 3rem;
-  --justify-content: space-around;
+  color: rgb(13, 52, 124);
   width: 80%;
 }
 
@@ -152,14 +152,26 @@ header .video-container::after {
 
 .para .desc h1 {
   font-size: 1.4rem;
+  --color: rgb(13, 52, 124);
 }
 .para .desc p {
   font-size: 0.95rem;
+  --color: rgb(6, 20, 66);
 }
 
 .vid {
   max-width: 500px;
   border-radius: 10px;
+}
+
+.yt {
+  background-color: rgb(252, 66, 66);
+  padding: 9px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  width: 150px;
+  text-decoration: none;
 }
 
 @media (min-width: 700px) {
